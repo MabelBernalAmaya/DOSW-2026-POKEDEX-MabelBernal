@@ -78,7 +78,7 @@ Poképedia tiene su propia identidad visual. El manual define el nombre, el logo
 
 
  [Ver manual de identidad](https://canva.link/aj3d2ue97w0291m)
-![Manual de identidad ]()
+![Manual de identidad ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/CONOCE-EXPLORA-APRENDE.png)
 
 ---
 
