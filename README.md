@@ -4,7 +4,7 @@
 **"Conoce · Explora · Aprende"**
 
 ---
-![Pokepedia Banner] ()
+![Pokepedia Banner] (https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/que%20es%20pokepedia.png)
 ## ¿Qué es Poképedia?
 
 Poképedia es mi versión de una Pokédex real, desarrollada como proyecto individual para el curso de Desarrollo y Operaciones de Software (DOSW) — Intersemestral 2026.
