@@ -21,12 +21,12 @@ Estas son todas las cosas que va a poder hacer un usuario en Poképedia:
 - Ver el listado completo de Pokémon de forma organizada
 - Buscar cualquier Pokémon por nombre o número en tiempo real
 - Filtrar por tipo, región, generación, habilidad, mega evolución y más
-- Ver el detalle completo de cada Pokémon: stats, tipos, habilidades y evoluciones
+- Ver el detalle completo de cada Pokémon: status, tipos, habilidades y evoluciones
 - Guardar Pokémon favoritos para tenerlos a mano
 - Armar equipos Pokémon de hasta 6 miembros y administrar varios equipos a la vez
 - Ver un análisis competitivo del equipo: cobertura de tipos, debilidades y resistencias
 - Consultar estadísticas de uso: qué Pokémon son más populares, más usados en equipos, etc.
-- Simular un combate entre dos Pokémon para ver cuál ganaría ⚔️
+- Simular un combate entre dos Pokémon para ver cuál ganaría 
 
 Los administradores además pueden crear, editar y eliminar Pokémon del catálogo, y gestionar los perfiles de los usuarios registrados.
 ##  No Funcionalidades
