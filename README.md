@@ -1,5 +1,5 @@
 # DOSW-2026-POKEDEX-POKEPEDIA MabelBernal
-# Poképedia ⚡
+# POKEPEDIA
 ![Pokepedia Banner](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/pokepediaimagem.png)
 **"Conoce · Explora · Aprende"**
 
@@ -30,10 +30,11 @@ Estas son todas las cosas que va a poder hacer un usuario en Poképedia:
 
 Los administradores además pueden crear, editar y eliminar Pokémon del catálogo, y gestionar los perfiles de los usuarios registrados.
 ##  No Funcionalidades
--  El sistema debe restringir el acceso a las funciones de consulta mediante una sesión activa por Google OAuth (GMAIL) o credenciales clásicas.
--  Siguiendo el manual de identidad del proyecto, la interfaz debe manejar un esquema Cyberpunk de alto contraste con fondo negro absoluto (#000000) y fuentes sans-serif en color blanco puro (#FFFFFF) para garantizar una legibilidad óptima y accesibilidad visual.
-- El tiempo de respuesta para renderizar los resultados en pantalla no debe superar los 1.5 segundos bajo condiciones normales de red
-- Esto debe garantizar que el código sea altamente cohesivo, fácil de desacoplar para futuras pruebas unitarias y escalable para nuevos módulos del sistema.
+- Diseño: La interfaz va a tener un estilo Cyberpunk con un contraste. Se usara un fondo negro total (#000000) y letras blancas sans-serif (#FFFFFF) para que cualquiera pueda leer todo sin romperse los ojos y sea superaccesible.
+
+- Rendimiento: El sistema tiene que ser rápido dinamico y navegable  la idea es que los resultados se carguen en la pantalla en menos de 1.5 segundos si la red está normal.
+
+- Código  Queremos que el código quede  ordenado y estructurado (con alta cohesión). Así va a ser mucho más fácil hacerle pruebas unitarias más adelante y hacer  nuevos módulos si el proyecto crece.
 ---
 ## Tablero Jira
 
