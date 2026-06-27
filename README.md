@@ -1,0 +1,2 @@
+# DOSW-2026-POKEDEX-MabelBernal
+Proyecto POKEDEX-POKEPEDIA
