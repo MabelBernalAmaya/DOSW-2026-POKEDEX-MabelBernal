@@ -66,7 +66,7 @@ El análisis de requerimientos está basado en la plantilla DOSW e incluye los 1
 
 ## Manual de identidad
 
-Poképedia tiene su propia identidad . El manual  nos permite definir el nombre, el logotipo, la paleta de colores, las tipografías, la iconografía, las reglas de uso de marca y la mascota oficial.
+Poképedia tiene su propia identidad . El manual  nos permite definir el nombre, el logotipo, la paleta de colores, las tipografías, la iconografía, las reglas de uso de marca y la mascota oficial usando la herramienta de Canva. 
 
 | | |
 |---|---|
@@ -78,6 +78,7 @@ Poképedia tiene su propia identidad . El manual  nos permite definir el nombre,
 
 
  [Ver manual de identidad](https://canva.link/aj3d2ue97w0291m)
+
 ![Manual de identidad ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/CONOCE-EXPLORA-APRENDE.png)
 
 ---
