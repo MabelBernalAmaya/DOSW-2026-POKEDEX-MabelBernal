@@ -1,10 +1,10 @@
 # DOSW-2026-POKEDEX-POKEPEDIA MabelBernal
 # Poképedia ⚡
-![Pokepedia Banner](img/banner-pokepedia.png)
+![Pokepedia Banner](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/pokepediaimagem.png)
 **"Conoce · Explora · Aprende"**
 
 ---
-
+![Pokepedia Banner] ()
 ## ¿Qué es Poképedia?
 
 Poképedia es mi versión de una Pokédex real, desarrollada como proyecto individual para el curso de Desarrollo y Operaciones de Software (DOSW) — Intersemestral 2026.
