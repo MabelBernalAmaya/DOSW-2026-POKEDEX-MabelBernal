@@ -12,7 +12,7 @@ Poképedia es mi versión de una Pokédex real, desarrollada como proyecto indiv
 La idea fue crear algo que se sintiera como una herramienta que un entrenador Pokémon usaría de verdad: que puedas buscar cualquier Pokémon, ver toda su información, armar tu equipo y entender qué tan bueno es competitivamente. Todo con una identidad visual propia inspirada en el universo Pokémon pero con un giro más tecnológico y oscuro.
 
 ---
-![que puedo hacer en pokepedia ]()
+![que puedo hacer en pokepedia ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/qie%20puedo%20hacer%20en%20pokepedia.png)
 ## Funcionalidades
 
 Estas son todas las cosas que va a poder hacer un usuario en Poképedia:
