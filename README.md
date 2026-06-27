@@ -12,7 +12,7 @@ Poképedia es mi versión de una Pokédex real, desarrollada como proyecto indiv
 La idea fue crear algo que se sintiera como una herramienta que un entrenador Pokémon usaría de verdad: que puedas buscar cualquier Pokémon, ver toda su información, armar tu equipo y entender qué tan bueno es competitivamente. Todo con una identidad visual propia inspirada en el universo Pokémon pero con un giro más tecnológico y oscuro.
 
 ---
-
+![que puedo hacer en pokepedia ]()
 ## Funcionalidades
 
 Estas son todas las cosas que va a poder hacer un usuario en Poképedia:
@@ -29,6 +29,7 @@ Estas son todas las cosas que va a poder hacer un usuario en Poképedia:
 - Simular un combate entre dos Pokémon para ver cuál ganaría ⚔️
 
 Los administradores además pueden crear, editar y eliminar Pokémon del catálogo, y gestionar los perfiles de los usuarios registrados.
+##  No Funcionalidades
 
 ---
 ## Tablero Jira
