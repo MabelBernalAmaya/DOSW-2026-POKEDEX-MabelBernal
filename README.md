@@ -76,7 +76,9 @@ Poképedia tiene su propia identidad visual. El manual define el nombre, el logo
 | **Tipografías** | Press Start 2P (títulos) · Inter (texto) |
 | **Mascota** | Pikachu detective |
 
- [Ver manual de identidad](#)
+
+ [Ver manual de identidad](https://canva.link/aj3d2ue97w0291m)
+![Manual de identidad ]()
 
 ---
 
