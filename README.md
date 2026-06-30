@@ -15,34 +15,30 @@ La idea fue crear algo que se sintiera como una herramienta que usaria un entren
 ![que puedo hacer en pokepedia ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/qie%20puedo%20hacer%20en%20pokepedia.png)
 ##  Especificación de Requerimientos (Fase I)
 
-### Módulos del Sistema (Requisitos Funcionales)
-Que me permite hacer Pokepedia?
+##  Funcionalidades de Poképedia
 
+Estas son todas las cosas que va a poder hacer un usuario en Poképedia:
+* **Entrar con toda:** Crear una cuenta propia en la app o entrar directamente usando tu cuenta de Google.
+* **Catálogo completo:** Ver el listado completo de Pokémon organizado en tarjetas traslúcidas que se ven geniales.
+* **Buscador en tiempo real:** Buscar cualquier Pokémon por su nombre o su número de ID al instante.
+* **Filtros avanzados:** Filtrar por tipo elemental, por estadísticas base (con un slider de 1 a 255) y ordenar los resultados por velocidad, orden alfabético o número.
+* **Ficha técnica:** Ver el detalle completo de cada Pokémon con sus stats, tipos, habilidades y evoluciones.
+* **Sección de favoritos:** Guardar los Pokémon que más te gusten para tenerlos siempre a la mano en tu perfil.
+* **Armar tus escuadras (Team Builder):** Armar equipos Pokémon de hasta 6 miembros, administrar varias escuadras a la vez y validar que no metas Pokémon repetidos en el mismo equipo.
+* **Análisis con IA y Matriz de Sinergia:** Ver un análisis competitivo real del equipo con una matriz que te muestra las debilidades y resistencias de tus tipos. Si te falta un miembro, puedes darle al botón de "Completar con IA" y el sistema te sugerirá el mejor Pokémon para tu estrategia.
+* **Modo Versus ⚔️:** Simular un combate o comparar estadísticas cara a cara entre dos Pokémon para ver cuál es el ganador en cada atributo (el stat ganador se iluminará con un brillo neón).
+* **Exportar a Showdown:** Sacar tu equipo en un cuadro de texto plano con formato limpio para copiarlo y pegarlo directo en Pokémon Showdown.
+* **Historial rápido:** Tener un carrusel en la parte de abajo con los últimos 5 Pokémon que buscaste para regresar a ellos rápido, o borrar el historial cuando quieras.
+* **Modo Administrador:** Los administradores además pueden crear, editar y eliminar Pokémon del catálogo para mantenerlo actualizado, y gestionar los perfiles de los usuarios.
 
-* **RF-01 (Registro Local):** Formulario para la creación de cuentas de usuario de forma segura con validación de credenciales.
-* **RF-02 (Autenticación con Google):** Inicio de sesión rápido mediante la integración con **Google Auth API**, gestionando la sesión a través de tokens JWT.
+---
 
+##  No Funcionalidades (Atributos de Calidad)
 
-* **RF-05 (Cuadrícula del Catálogo):** Vista principal en formato *Grid Layout* que despliega las tarjetas de los Pokémon con un diseño responsivo y estilo *glassmorphism* (semitransparente).
-* **RF-06 (Ficha de Detalle):** Vista individual para analizar a fondo las estadísticas base, tipos elementales, habilidades y líneas evolutivas de cada espécimen.
-* **RF-07 (Buscador en Tiempo Real):** Filtro reactivo que procesa la búsqueda por nombre o identificador numérico (ID) en tiempo real mientras el usuario escribe.
-* **RF-08 y RF-11 (Filtros Avanzados):** Panel de control para combinar filtros concurrentes: segmentación por tipo elemental, región de origen, rangos de estadísticas base (1-255) y ordenamiento (A-Z, ID o velocidad máxima).
-
-* **RF-09 (Construcción de Equipos):** Espacio de trabajo interactivo para gestionar y armar alineaciones competitivas con un límite estricto de hasta 6 ranuras (*slots*) por equipo.
-* **RF-10 (Persistencia de Equipos):** Operaciones CRUD completas que permiten al usuario guardar múltiples equipos en su cuenta, modificar sus integrantes o eliminarlos de la base de datos.
-* **RF-12 (Comparador Versus):** Interfaz para contrastar las estadísticas de dos Pokémon cara a cara, aplicando un resaltado visual sobre el atributo dominante.
-* **RF-13 (Lista de Favoritos):** Marcado rápido de Pokémon predilectos para guardarlos e indexarlos directamente en el perfil del usuario.
-* **RF-15 (Exportador a Showdown):** Función para generar y exportar la ficha del equipo en bloques de texto plano, 100% compatible con el formato de **Pokémon Showdown**.
-* **RF-16 (Asistente de Sinergias):** Lógica del sistema que calcula la cobertura táctica (debilidades y resistencias) mediante una matriz dinámica y permite autocompletar espacios vacíos con un solo clic.
-
-
-
-### Atributos del Sistema (Requisitos No Funcionales)
-
-* ** Diseño e Interfaz (UI/UX):** La aplicación implementa un sistema visual oscuro de alto contraste estilo Cyberpunk. Utiliza un fondo negro puro (`#000000`), tipografías sans-serif de alta legibilidad y bordes emisivos neón (tonos púrpura, cian y rosa) para delimitar los estados interactivos.
-* ** Percepción de Latencia:** Para optimizar la UX en peticiones asíncronas, la barra de búsqueda incorpora un componente animado (un signo de pregunta `?`) que genera un pulso de color continuo mientras se procesa la respuesta del servidor.
-* ** Rendimiento y Carga:** Las búsquedas en el catálogo, el filtrado avanzado y el renderizado de gráficos deben responder en un tiempo máximo de **1.5 segundos** en entorno local, optimizando el manejo de estados en el cliente.
-* ** Arquitectura y Mantenibilidad:** El código fuente sigue principios de modularidad (Frontend en React/Next.js y backend de la API en Node.js), asegurando alta cohesión y bajo acoplamiento para facilitar futuras pruebas unitarias y la escalabilidad del proyecto.
+* **Diseño Cyberpunk con toda la onda:** La interfaz va a tener un estilo súper futurista y oscuro. Se usará un fondo negro total (`#000000`), fuentes limpias tipo dashboard táctico y bordes brillantes de neón (morado, cian y rosa) para que resalten las tarjetas y las secciones.
+* **Microanimación interactiva:** Para que la espera no sea aburrida mientras la app busca los datos, la barra de búsqueda mostrará un símbolo de pregunta (`?`) que cambia de color y parpadea con luz neón hasta que carguen las tarjetas.
+* **Rendimiento:** El sistema tiene que ser rápido, dinámico y navegable. La idea es que las búsquedas, los filtros y los gráficos del versus carguen en la pantalla en menos de 1.5 segundos si el internet está normal.
+* **Código limpio:** Queremos que el código quede ordenado y bien estructurado (con alta cohesión). Así va a ser mucho más fácil hacerle pruebas unitarias más adelante y crear nuevos módulos sin que se rompa nada si el proyecto crece.
 ## Tablero Jira
 
 Acá está toda la planeación del proyecto: la épica, los features por módulo, las historias de usuario de cada requerimiento y las tareas técnicas necesarias para desarrollarlos.
