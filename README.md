@@ -53,6 +53,12 @@ El prototipo inicial fue diseñado en Figma y también en Lovable, siguiendo el 
 
 
  [Ver en Lovable](https://lovable.dev/projects/f9492b15-532e-4b33-b7dd-a442c0d80e93?magic_link=mc_a4e6599e-52ce-4d1b-b721-df4d378a091b)
+ [PROTOTIPO HOME ](https://lovable.dev/projects/f9492b15-532e-4b33-b7dd-a442c0d80e93?magic_link=mc_a4e6599e-52ce-4d1b-b721-df4d378a091b)
+ [CATALOG](https://lovable.dev/projects/f9492b15-532e-4b33-b7dd-a442c0d80e93?magic_link=mc_a4e6599e-52ce-4d1b-b721-df4d378a091b)
+ [LOGIN ](https://lovable.dev/projects/f9492b15-532e-4b33-b7dd-a442c0d80e93?magic_link=mc_a4e6599e-52ce-4d1b-b721-df4d378a091b)
+ [ REGISTER ]()
+ [TEAM BUILDER ] ()
+ [ VS ]()
 
 ---
 
