@@ -13,29 +13,36 @@ La idea fue crear algo que se sintiera como una herramienta que usaria un entren
 
 ---
 ![que puedo hacer en pokepedia ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/qie%20puedo%20hacer%20en%20pokepedia.png)
-## Funcionalidades
+##  Especificación de Requerimientos (Fase I)
 
-Estas son todas las cosas que va a poder hacer un usuario en Poképedia:
+### Módulos del Sistema (Requisitos Funcionales)
+Que me permite hacer Pokepedia?
 
-- Crear una cuenta propia o entrar directamente con Google
-- Ver el listado completo de Pokémon de forma organizada
-- Buscar cualquier Pokémon por nombre o número en tiempo real
-- Filtrar por tipo, región, generación, habilidad, mega evolución y más
-- Ver el detalle completo de cada Pokémon: stats, tipos, habilidades y evoluciones
-- Guardar Pokémon favoritos para tenerlos a mano
-- Armar equipos Pokémon de hasta 6 miembros y administrar varios equipos a la vez
-- Ver un análisis competitivo del equipo: cobertura de tipos, debilidades y resistencias
-- Consultar estadísticas de uso: qué Pokémon son más populares, más usados en equipos, etc.
-- Simular un combate entre dos Pokémon para ver cuál ganaría ⚔️
 
-Los administradores además pueden crear, editar y eliminar Pokémon del catálogo, y gestionar los perfiles de los usuarios registrados.
-##  No Funcionalidades
-- Diseño: La interfaz va a tener un estilo Cyberpunk con un contraste. Se usara un fondo negro total (#000000) y letras blancas sans-serif (#FFFFFF) para que cualquiera pueda leer todo sin romperse los ojos y sea superaccesible.
+* **RF-01 (Registro Local):** Formulario para la creación de cuentas de usuario de forma segura con validación de credenciales.
+* **RF-02 (Autenticación con Google):** Inicio de sesión rápido mediante la integración con **Google Auth API**, gestionando la sesión a través de tokens JWT.
 
-- Rendimiento: El sistema tiene que ser rápido dinamico y navegable  la idea es que los resultados se carguen en la pantalla en menos de 1.5 segundos si la red está normal.
 
-- Código  Queremos que el código quede  ordenado y estructurado (con alta cohesión). Así va a ser mucho más fácil hacerle pruebas unitarias más adelante y hacer  nuevos módulos si el proyecto crece.
----
+* **RF-05 (Cuadrícula del Catálogo):** Vista principal en formato *Grid Layout* que despliega las tarjetas de los Pokémon con un diseño responsivo y estilo *glassmorphism* (semitransparente).
+* **RF-06 (Ficha de Detalle):** Vista individual para analizar a fondo las estadísticas base, tipos elementales, habilidades y líneas evolutivas de cada espécimen.
+* **RF-07 (Buscador en Tiempo Real):** Filtro reactivo que procesa la búsqueda por nombre o identificador numérico (ID) en tiempo real mientras el usuario escribe.
+* **RF-08 y RF-11 (Filtros Avanzados):** Panel de control para combinar filtros concurrentes: segmentación por tipo elemental, región de origen, rangos de estadísticas base (1-255) y ordenamiento (A-Z, ID o velocidad máxima).
+
+* **RF-09 (Construcción de Equipos):** Espacio de trabajo interactivo para gestionar y armar alineaciones competitivas con un límite estricto de hasta 6 ranuras (*slots*) por equipo.
+* **RF-10 (Persistencia de Equipos):** Operaciones CRUD completas que permiten al usuario guardar múltiples equipos en su cuenta, modificar sus integrantes o eliminarlos de la base de datos.
+* **RF-12 (Comparador Versus):** Interfaz para contrastar las estadísticas de dos Pokémon cara a cara, aplicando un resaltado visual sobre el atributo dominante.
+* **RF-13 (Lista de Favoritos):** Marcado rápido de Pokémon predilectos para guardarlos e indexarlos directamente en el perfil del usuario.
+* **RF-15 (Exportador a Showdown):** Función para generar y exportar la ficha del equipo en bloques de texto plano, 100% compatible con el formato de **Pokémon Showdown**.
+* **RF-16 (Asistente de Sinergias):** Lógica del sistema que calcula la cobertura táctica (debilidades y resistencias) mediante una matriz dinámica y permite autocompletar espacios vacíos con un solo clic.
+
+
+
+### Atributos del Sistema (Requisitos No Funcionales)
+
+* ** Diseño e Interfaz (UI/UX):** La aplicación implementa un sistema visual oscuro de alto contraste estilo Cyberpunk. Utiliza un fondo negro puro (`#000000`), tipografías sans-serif de alta legibilidad y bordes emisivos neón (tonos púrpura, cian y rosa) para delimitar los estados interactivos.
+* ** Percepción de Latencia:** Para optimizar la UX en peticiones asíncronas, la barra de búsqueda incorpora un componente animado (un signo de pregunta `?`) que genera un pulso de color continuo mientras se procesa la respuesta del servidor.
+* ** Rendimiento y Carga:** Las búsquedas en el catálogo, el filtrado avanzado y el renderizado de gráficos deben responder en un tiempo máximo de **1.5 segundos** en entorno local, optimizando el manejo de estados en el cliente.
+* ** Arquitectura y Mantenibilidad:** El código fuente sigue principios de modularidad (Frontend en React/Next.js y backend de la API en Node.js), asegurando alta cohesión y bajo acoplamiento para facilitar futuras pruebas unitarias y la escalabilidad del proyecto.
 ## Tablero Jira
 
 Acá está toda la planeación del proyecto: la épica, los features por módulo, las historias de usuario de cada requerimiento y las tareas técnicas necesarias para desarrollarlos.
