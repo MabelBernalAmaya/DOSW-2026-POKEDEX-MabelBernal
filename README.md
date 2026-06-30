@@ -47,9 +47,9 @@ Acá está toda la planeación del proyecto: la épica, los features por módulo
 
 El prototipo inicial fue diseñado en Figma y también en Lovable, siguiendo el manual de identidad de Poképedia.
 
- [Ver en Figma](https://www.figma.com/make/VkqbyHjnSSzAKXh2tsUaAX/Pok%C3%A9pedia-UI-UX-Design-Kit?t=ecaWKgiL2rzUO6mQ-1)
 
- [Ver en Lovable](https://lovable.dev/projects/4f193ce0-1d6d-4ac6-a0c0-8fa5c758c651?magic_link=mc_3293e935-5dbe-4780-9b9a-9735b4dbb77b)
+
+ [Ver en Lovable](https://lovable.dev/projects/f9492b15-532e-4b33-b7dd-a442c0d80e93?magic_link=mc_a4e6599e-52ce-4d1b-b721-df4d378a091b)
 
 ---
 
@@ -60,7 +60,7 @@ El prototipo inicial fue diseñado en Figma y también en Lovable, siguiendo el 
 
 El análisis de requerimientos está basado en la plantilla DOSW e incluye los 16 requerimientos funcionales detallados con sus flujos, datos de entrada y salida, reglas de negocio, y los diagramas de casos de uso por cada uno. También están los 8 requerimientos no funcionales del sistema.
 
- [Ver documento de requerimientos](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/Plantilla_Requerimientos_DOSW.pdf)
+ [Ver documento de requerimientos]()
 
 ---
 
