@@ -63,7 +63,7 @@ El prototipo inicial fue diseñado en Figma y también en Lovable, siguiendo el 
 
 El análisis de requerimientos está basado en la plantilla DOSW e incluye los 16 requerimientos funcionales detallados con sus flujos, datos de entrada y salida, reglas de negocio, y los diagramas de casos de uso por cada uno. También están los 8 requerimientos no funcionales del sistema.
 
- [Ver documento de requerimientos](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/Plantilla_Requerimientos_DOSW%20correccion.docx)
+ [Ver documento de requerimientos](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/Plantilla_Requerimientos_DOSW%20correccion.pdf)
 
 ---
 
