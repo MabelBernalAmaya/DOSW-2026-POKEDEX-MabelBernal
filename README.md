@@ -50,8 +50,8 @@ Acá está toda la planeación del proyecto: la épica, los features por módulo
 
 Diagrama que representa usuarios back front y servicios externos 
 
-![Diagrama c4]()
-[Ver en lucidchart]()
+![Diagrama c4](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/DIAGRAMA%20C4.png)
+[Ver en lucidchart](https://lucid.app/lucidchart/6a2f7e33-5da8-4be6-9274-3e472c93a6ef/edit?viewport_loc=290%2C-1049%2C1220%2C1499%2C0_0&invitationId=inv_ce4c9f47-71f3-4ba8-95d3-e88c1e8f250b)
 
 ---
 ## Prototipo
