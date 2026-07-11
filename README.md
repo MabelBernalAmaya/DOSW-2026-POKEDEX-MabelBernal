@@ -47,11 +47,11 @@ Acá está toda la planeación del proyecto: la épica, los features por módulo
 ---
 ## Prototipo
 
-El prototipo inicial fue diseñado  en Lovable, siguiendo el manual de identidad de Poképedia.
+El prototipo fue diseñado en Lovable, siguiendo el manual de identidad de Poképedia. Incluye catálogo con filtros combinables, ficha de detalle, favoritos, Team Builder, modo Versus, autenticación simulada (email/password y Google) y tres roles de usuario (Visitante, Entrenador, Administrador).
 
- 
+**Prototipo publicado:** [https://pokepedia.lovable.app](https://pokepedia.lovable.app)
 
- [Ver en Lovable](https://lovable.dev/projects/f9492b15-532e-4b33-b7dd-a442c0d80e93?magic_link=mc_a4e6599e-52ce-4d1b-b721-df4d378a091b)
+[Ver proyecto en Lovable (editor)](https://lovable.dev/projects/f9492b15-532e-4b33-b7dd-a442c0d80e93?magic_link=mc_a4e6599e-52ce-4d1b-b721-df4d378a091b)
 
 ![Homepage](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/HOMEPAGE.png)
 
@@ -64,6 +64,8 @@ El prototipo inicial fue diseñado  en Lovable, siguiendo el manual de identidad
 ![team](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/TEAM%20BUILDER.png)
     
 ![vs](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/VERSUS.png)
+
+![favoritos](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/FAVORITES.png)
 
 
 ---
