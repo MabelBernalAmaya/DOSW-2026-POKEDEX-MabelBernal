@@ -4,7 +4,7 @@
 **"Conoce · Explora · Aprende"**
 
 ---
-![Pokepedia que es ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/que%20es%20pokepedia.png)
+![Pokepedia que es ]()
 ## ¿Qué es Poképedia?
 
 Poképedia es mi versión de una Pokédex real, como proyecto individual para el curso de Desarrollo y Operaciones de Software (DOSW) — Intersemestral 2026.
@@ -12,7 +12,7 @@ Poképedia es mi versión de una Pokédex real, como proyecto individual para el
 La idea fue crear algo que se sintiera como una herramienta que usaria un entrenador Pokémon en donde  se pueda buscar cualquier Pokémon, ver toda su información, armar tu equipo y entender qué tan bueno es competitivamente. Todo con una identidad visual propia inspirada en el universo Pokémon pero con un estilo más tecnológico .
 
 ---
-![que puedo hacer en pokepedia ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/qie%20puedo%20hacer%20en%20pokepedia.png)
+![que puedo hacer en pokepedia ]()
 ##  Funcionalidades de Poképedia
 
 Estas son todas las cosas que va a poder hacer un usuario en Poképedia:
