@@ -53,19 +53,19 @@ El prototipo fue diseñado en Lovable, siguiendo el manual de identidad de Poké
 
 [Ver proyecto en Lovable (editor)](https://lovable.dev/projects/f9492b15-532e-4b33-b7dd-a442c0d80e93?magic_link=mc_a4e6599e-52ce-4d1b-b721-df4d378a091b)
 
-![Homepage](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/HOMEPAGE.png)
+![Homepage](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/homepague%20pokemon.png)
 
-![catalogo](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/CATALOG%20.png)
+![catalogo](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/catalogo.png)
     
-![login](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/LOGIN.png)
+![login]()
     
-![register](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/REGISTER.png)
+![register]()
     
-![team](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/TEAM%20BUILDER.png)
+![team](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/team%20builer.png)
     
-![vs](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/VERSUS.png)
+![vs](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/versus.png)
 
-![favoritos](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/FAVORITES.png)
+![favoritos](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/favorites.png)
 
 
 ---
