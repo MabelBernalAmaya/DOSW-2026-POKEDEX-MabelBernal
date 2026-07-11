@@ -57,9 +57,9 @@ El prototipo fue diseñado en Lovable, siguiendo el manual de identidad de Poké
 
 ![catalogo](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/catalogo.png)
     
-![login]()
+![login](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/sign%20in.png)
     
-![register]()
+![register](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/register.png)
     
 ![team](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/team%20builer.png)
     
