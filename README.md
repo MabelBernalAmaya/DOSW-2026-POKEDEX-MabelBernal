@@ -96,7 +96,7 @@ Poképedia tiene su propia identidad . El manual  nos permite definir el nombre,
 
  [Ver manual de identidad](https://canva.link/aj3d2ue97w0291m)
 
-![Manual de identidad ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/CONOCE-EXPLORA-APRENDE.png)
+![Manual de identidad ](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/CONOCE-EXPLORA-APRENDE%20(2).png)
 
 ---
 
