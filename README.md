@@ -45,6 +45,15 @@ Acá está toda la planeación del proyecto: la épica, los features por módulo
 [Ver tablero en Jira](https://mailmabel.atlassian.net/jira/software/projects/POK/boards/34?atlOrigin=eyJpIjoiNWFjYzk2YWQ4MjlkNGY2ZTkwZTUxOTY0Y2MyYWNkODciLCJwIjoiaiJ9)
 
 ---
+---
+## DIAGRAMA C4 
+
+Diagrama que representa usuarios back front y servicios externos 
+
+![Diagrama c4]()
+[Ver en lucidchart]()
+
+---
 ## Prototipo
 
 El prototipo fue diseñado en Lovable, siguiendo el manual de identidad de Poképedia. Incluye catálogo con filtros combinables, ficha de detalle, favoritos, Team Builder, modo Versus, autenticación simulada (email/password y Google) y tres roles de usuario (Visitante, Entrenador, Administrador).
