@@ -1,6 +1,6 @@
 # DOSW-2026-POKEDEX-POKEPEDIA MabelBernal
 # POKEPEDIA
-![Pokepedia Banner](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/develop/Docs/pokepediaimagem.png)
+![Pokepedia Banner](https://github.com/MabelBernalAmaya/DOSW-2026-POKEDEX-MabelBernal/blob/main/Docs/Gemini_Generated_Image_bs82j7bs82j7bs82.png)
 **"Conoce · Explora · Aprende"**
 
 ---
